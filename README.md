@@ -1,6 +1,6 @@
 ![Apache-2.0](https://img.shields.io/badge/license-Apache-blue)  [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-# Make your First Contribution here! :tada:
+# Make your First Android App here! :tada:
 
 New to Android?  
 New to Java?  
