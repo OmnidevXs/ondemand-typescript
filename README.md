@@ -9,20 +9,18 @@ Don't know how to Start? :confused:
 
 **Here is the One Stop Solution for Every Newcomer!**
 
-## 1. Begin with learning about Android Studio 4.2! How it works and learn about the general steps. :octocat:
+### 1. Begin with learning about Android Studio 4.2! How it works and learn about the general steps. :octocat:
 
 You can read the following book, take the following courses/videos.
-
-### 1.1 Here is the book
 * [Hands-on App Development in Android Studio 4.2](https://www.amazon.com/gp/product/B096TL8VMP) (22 Complete Android Cases with Step-by-Step Instruction to Grow from Novice to Android Expert)
 
-### 1.2 The Youtube Tutorials/Videos are underconstruction :free:
+### 2. The Youtube Tutorials/Videos are underconstruction :free:
 
-## 2. Download the cases here! Follow these steps (Better try it yourself first!)
+### 3. Download the cases here! Follow these steps (Better try it yourself first!)
 
 Each case is organized as a seperated project in Github repo. 
 
-### 2.1 Fork the Repository :fork_and_knife:(commonly called as Repo)
+### 3.1 Fork the Repository :fork_and_knife:(commonly called as Repo)
 Fork the Repo by clicking on the Fork button on the top of this page. This will create a copy of this Repo in your Github account.
 Don't forget to `Star`it!
 
