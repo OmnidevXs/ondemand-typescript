@@ -20,13 +20,15 @@ You can read the following book, take the following courses/videos.
 
 ## 2. Download the cases here! Follow these steps (Better try it yourself first!)
 
+Each case is organized as a seperated project in Github repo. 
+
 ### 2.1 Fork the Repository :fork_and_knife:(commonly called as Repo)
-Fork this Repo by clicking on the Fork button on the top of this page. This will create a copy of this Repo in your Github account.
+Fork the Repo by clicking on the Fork button on the top of this page. This will create a copy of this Repo in your Github account.
 Don't forget to `Star`it!
 
 ### 2.2 Clone the Repo Locally
 
-* Go to your GitHub account and to this forked Repo, click on the `Clone or Download` button and then click the Copy to Clipboard Icon.:clipboard:
+* Go to your GitHub account and to the forked Repo, click on the `Clone or Download` button and then click the Copy to Clipboard Icon.:clipboard:
 * Now open Command Line/Terminal.
 * Switch to the Directory where you want to Clone this Repo.
 * Run this Command
