@@ -9,25 +9,22 @@ Don't know how to Start? :confused:
 
 **Here is the One Stop Solution for Every Newcomer!**
 
-## 1. Begin with learning about Android Studio! How it works and learn about the general steps. :octocat:
+## 1. Begin with learning about Android Studio 4.2! How it works and learn about the general steps. :octocat:
 
 You can read the following book, take the following courses/videos.
 
 ### 1.1 Here is the book
-* [Git and Github for Poets by The Coding Train](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) (It's for everyone and not just poets :stuck_out_tongue_winking_eye:)
-* [What is Git | What is GitHub | Git Tutorial | GitHub Tutorial | Devops Tutorial | Edureka](https://www.youtube.com/watch?v=xuB1Id2Wxak)
+* [Hands-on App Development in Android Studio 4.2](https://www.amazon.com/gp/product/B096TL8VMP) (22 Complete Android Cases with Step-by-Step Instruction to Grow from Novice to Android Expert)
 
-### 1.2 Here are some Youtube Tutorials/Videos :free:
-* [Pick any Free Udemy Course for learning Git](https://www.udemy.com/courses/search/?q=git&src=ukw&p=1&price=price-free&lang=en)
-* [Version Control with Git by Udacity](https://in.udacity.com/course/version-control-with-git--ud123)
+### 1.2 The Youtube Tutorials/Videos are underconstruction :free:
 
-## 2. Contribute Here! Follow these steps (Better try it yourself first!)
+## 2. Download the cases here! Follow these steps (Better try it yourself first!)
 
-### 2.1 Fork this Repository :fork_and_knife:(commonly called as Repo)
+### 2.1 Fork the Repository :fork_and_knife:(commonly called as Repo)
 Fork this Repo by clicking on the Fork button on the top of this page. This will create a copy of this Repo in your Github account.
 Don't forget to `Star`it!
 
-### 2.2 Clone this Repo Locally
+### 2.2 Clone the Repo Locally
 
 * Go to your GitHub account and to this forked Repo, click on the `Clone or Download` button and then click the Copy to Clipboard Icon.:clipboard:
 * Now open Command Line/Terminal.
@@ -65,17 +62,6 @@ git checkout -b shreya#11
   *Check [Sample](https://github.com/Novice-Paradigm/Hello-World/blob/master/Contributors/Sample.md)*
 * Save the File.
 
-### 2.5 Commit the Changes
-* `git status`
-* `git add <file-names>`
-* `git commit -m "Contribution by <your-username>"`
+### 2.5 Run in your Android Studio
 
-### 2.6 Push the Changes to Github
-* `git push origin <branch-name>`
-
-### 2.7 Submit the Pull Request
-* Go to your Hello-World Repo on GitHub
-* Click `Compare & Pull Request` button.
-* Click `Create Pull Request`
-
-After you are done with this check the [Open Issues](https://github.com/Novice-Paradigm/Hello-World/issues) in this repo or other repos of [Novice Paradigm](https://github.com/Novice-Paradigm) and continue Contributing! :blush:
+Enjoy :blush:
