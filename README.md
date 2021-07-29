@@ -30,15 +30,18 @@ Don't forget to `Star`it!
 ### Option 2. Clone the Repo Locally in Android Studio
 
 * Find the Repo link either through book or website, click on the `Clone or Download` button and then click the Copy to Clipboard Icon.:clipboard:
+
 <img src="git.png" height="400" alt="Screenshot"/> 
 
 * Start Android Studio, and chose "Get from Version Control"
+
 <img src="git2.png" height="400" alt="Screenshot"/> 
 
 The detailed instruction is in Case 4, Calculator.
 
 ### Option 3. Open with Github Desktop
 GitHub Desktop makes it easy to get version history, code review, collaboration, and powerful automation tools, all without using the command line!
+
 <img src="githubdesktop.png" height="400" alt="Screenshot"/> 
 
 ### Option 4. Download as zip and import to Android Studio
