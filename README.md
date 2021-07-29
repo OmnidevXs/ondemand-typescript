@@ -36,19 +36,14 @@ Don't forget to `Star`it!
 
 The detailed instruction is in Case 4, Calculator.
 
+### Option 3. Open with Githumb Desktop
+<img src="fork.png" height="400" alt="Screenshot"/> 
+
 ### Option 4. Download as zip and import to Android Studio
 Download to the local drive. Unzip to get the project. 
 
 ### bonus: Make necessary changes :white_check_mark:
-* Go to [Contributors](https://github.com/Novice-Paradigm/Hello-World/tree/master/Contributors) directory
-* Create a file:page_facing_up:.	
-* Write about Yourself (in any Language)
-  - Name
-  - School/College you are studying at or Company you are working at
-  - Your github username or link to your github profile
-  - Anything else you want to write  
-  *Check [Sample](https://github.com/Novice-Paradigm/Hello-World/blob/master/Contributors/Sample.md)*
-* Save the File.
+Join our "Hands-on Android" project to make contribution. 
 
 ### 2.5 Run in your Android Studio
 
@@ -56,12 +51,8 @@ Enjoy :blush:
 
 Support
 -------
-
+0. Email: hypech.com@gmail.com
 1. GitHub: https://github.com/hypech/
-2. StackOverflow: https://stackoverflow.com/story/hypech
+2. Youtube: https://youtu.be/-fGgwyymOyI
 3. Twitter: https://twitter.com/hypechor
-4. Youtube: https://youtu.be/-fGgwyymOyI
-5. Tiktok: https://www.tiktok.com/@androidcase
-6. http://hypech.github.io
-7. http://hypech.com
-8. hypech.com@gmail.com
+4. Web: http://hypech.com
