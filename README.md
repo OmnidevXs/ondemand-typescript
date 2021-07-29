@@ -50,7 +50,7 @@ Download to the local drive. Unzip to get the project.
 ### bonus: Make necessary changes :white_check_mark:
 Join our "Hands-on Android" project to make contribution. 
 
-## 3 Run in your Android Studio
+## 3. Run in your Android Studio
 
 Enjoy :blush:
 
