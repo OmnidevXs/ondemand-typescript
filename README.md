@@ -14,9 +14,9 @@ Don't know how to Start? :confused:
 You can read the following book, take the following courses/videos.
 * [Hands-on App Development in Android Studio 4.2](https://www.amazon.com/gp/product/B096TL8VMP) (22 Complete Android Cases with Step-by-Step Instruction to Grow from Novice to Android Expert)
 
-### 2. The Youtube Tutorials/Videos are underconstruction :free:
+### 2. The Youtube Tutorials/Videos are here (https://youtu.be/-fGgwyymOyI) :free:
 
-### 3. Download the cases here! Follow these steps (Better try it yourself first!)
+### 3. Download the cases from Github! Follow these steps (Better try it yourself first!)
 
 Each case is organized as a seperated project in Github repo. 
 
@@ -32,24 +32,20 @@ Don't forget to `Star`it!
 * Run this Command
 
   ```
-  git clone https://github.com/<your-username>/Hello-World.git
+  git clone https://github.com/hypech/Case4_Calculator.git
   ```
+
+The detailed instruction is in Case 4, Calculator.
 
 ### 2.3 Create a branch :twisted_rightwards_arrows:
 Change to the Repo directory on your Computer by running
 ```
-cd Hello-World
+cd Case4_Calculator
 ```
 Now create a branch
 ```
-git checkout -b <branch-name>
+git checkout -b learningAndroid#1
 ```
-A good way to name your branch is *<your-username>#<issue-number>*
-For example:
-```
-git checkout -b shreya#11
-```
-*NOTE: The issue number for this is [#11](https://github.com/Novice-Paradigm/Hello-World/blob/master/README.md)*
 
 ### 2.4 Make necessary changes :white_check_mark:
 * Go to [Contributors](https://github.com/Novice-Paradigm/Hello-World/tree/master/Contributors) directory
@@ -70,7 +66,7 @@ Support
 -------
 
 1. GitHub: https://github.com/hypech/
-2. Stack Overflow: https://stackoverflow.com/story/hypech
+2. StackOverflow: https://stackoverflow.com/story/hypech
 3. Twitter: https://twitter.com/hypechor
 4. Youtube: https://youtu.be/-fGgwyymOyI
 5. Tiktok: https://www.tiktok.com/@androidcase
