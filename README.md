@@ -65,3 +65,15 @@ git checkout -b shreya#11
 ### 2.5 Run in your Android Studio
 
 Enjoy :blush:
+
+Support
+-------
+
+1. GitHub: https://github.com/hypech/
+2. Stack Overflow: https://stackoverflow.com/story/hypech
+3. Twitter: https://twitter.com/hypechor
+4. Youtube: https://youtu.be/-fGgwyymOyI
+5. Tiktok: https://www.tiktok.com/@androidcase
+6. http://hypech.github.io
+7. http://hypech.com
+8. info@hypech.com
