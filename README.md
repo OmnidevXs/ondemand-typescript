@@ -76,4 +76,4 @@ Support
 5. Tiktok: https://www.tiktok.com/@androidcase
 6. http://hypech.github.io
 7. http://hypech.com
-8. info@hypech.com
+8. hypech.com@gmail.com
