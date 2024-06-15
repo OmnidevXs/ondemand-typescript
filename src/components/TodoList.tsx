@@ -3,6 +3,8 @@ import { DownOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
 import { Todo, getUserById, todoListData } from "../utils/data";
 import { ClickParam } from "antd/lib/menu";
 
+export type MenuKey = "complete" | "delete";
+
 const { confirm } = Modal
 
 interface ActionProps {
@@ -39,7 +41,7 @@ const menu = (
 
 interface TodoListProps {
     todoList: Todo[];
-    onClick: (todoId: string, key: "complete" | "delete") => void;
+    onClick: (todoId: string, key: MenuKey) => void;
 }
 
 function TodoList({ todoList, onClick }: TodoListProps) {
@@ -54,7 +56,7 @@ function TodoList({ todoList, onClick }: TodoListProps) {
                         <Dropdown overlay={() => (
                             <Action
                                 isCompleted={item.isCompleted}
-                                onClick={(key: "complete" | "delete") =>
+                                onClick={(key: MenuKey) =>
                                     onClick(item.id, key)
                                 }
                             />

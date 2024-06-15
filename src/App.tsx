@@ -6,6 +6,7 @@ import { Typography, Form, Button, Tabs } from "antd";
 import TodoList from "./components/TodoList.tsx";
 import TodoInput from "./components/TodoInput.tsx";
 import { todoListData } from "./utils/data.ts";
+import { MenuKey } from "./components/TodoList.tsx";
 
 const { Title } = Typography;
 const { TabPane } = Tabs;
@@ -19,7 +20,7 @@ function App() {
     const activeTodoList = todoList.filter(todo => !todo.isCompleted);
     const completedTodoList = todoList.filter(todo => todo.isCompleted);
 
-    const onClick = (todoId: string, key: "complete" | "delete") => {
+    const onClick = (todoId: string, key: MenuKey) => {
         if (key === "complete") {
             const newTodoList = todoList.map(todo => {
                 if (todo.id === todoId) {
@@ -47,6 +48,18 @@ function App() {
             <div className="container header">
                 <img src={logo} alt="" />
                 <Title level={3}>图雀社  区：汇聚精彩的免费实战教程</Title>
+            </div>
+            <div className="container">
+                <Form onFinish={onFinish}>
+                    <Form.Item name="todo">
+                        <TodoInput />
+                    </Form.Item>
+                    <Form.Item>
+                        <Button type="primary" htmlType="submit">
+                            提交
+                        </Button>
+                    </Form.Item>
+                </Form>
             </div>
             <div className="container">
                 <Tabs onChange={callback} type="card">

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Input, Select, DatePicker } from "antd";
 import { userList } from "../utils/data";
 import { Moment } from 'moment'
@@ -24,70 +24,96 @@ interface TodoInputProps {
     onChange?: (value: TodoValue) => void;
 }
 
+interface TodoInputState {
+    content: string;
+    user: UserId;
+    date: string;
+  }
+  
 
-const TodoInput = ({ value = {}, onChange }: TodoInputProps) => {
-    const [content, setContent] = useState('');
-    const [user, setUser] = useState(UserId.tuture);
-    const [date, setDate] = useState('');
-
-    const triggerChange = (changedValue: TodoValue) => {
-        if (onChange) {
-            onChange({ content, user, date, ...value, ...changedValue });
-        }
+  class TodoInput extends React.Component<TodoInputProps, TodoInputState> {
+    state = {
+      content: "",
+      user: UserId.tuture,
+      date: ""
     };
-
-    const onContentChange = (e: any) => {
-        if (!("content" in value)) {
-            setContent(e.target.value);
-        }
-
-        triggerChange({ content: e.target.value });
+  
+    private triggerChange = (changedValue: TodoValue) => {
+      const { content, user, date } = this.state;
+      const { value, onChange } = this.props;
+  
+      if (onChange) {
+        onChange({ content, user, date, ...value, ...changedValue });
+      }
     };
-
-    const onUserChange = (selectValue: UserId) => {
-        if (!("user" in value)) {
-            setUser(selectValue);
-        }
-
-        triggerChange({ user: selectValue });
+  
+    private onContentChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const { value = {} } = this.props;
+  
+      if (!("content" in value!)) {
+        console.log("hello");
+        this.setState({
+          content: e.target.value
+        });
+      }
+  
+      this.triggerChange({ content: e.target.value });
     };
-
-    const onDateOk = (date: Moment) => {
-        if (!("date" in value)) {
-            setDate(date.format("YYYY-MM-DD HH:mm"));
-        }
-
-        triggerChange({ date: date.format("YYYY-MM-DD HH:mm") });
+  
+    private onUserChange = (selectValue: UserId) => {
+      const { value = {} } = this.props;
+  
+      if (!("user" in value!)) {
+        this.setState({
+          user: selectValue
+        });
+      }
+  
+      this.triggerChange({ user: selectValue });
     };
-
-
-    return (
+  
+    private onDateOk = (date: Moment) => {
+      const { value = {} } = this.props;
+      if (!("date" in value!)) {
+        this.setState({
+          date: date.format("YYYY-MM-DD HH:mm")
+        });
+      }
+  
+      this.triggerChange({ date: date.format("YYYY-MM-DD HH:mm") });
+    };
+  
+    public render() {
+      const { value } = this.props;
+      const { content, user } = this.state;
+      return (
         <div className="todoInput">
-            <Input
-                type="text"
-                placeholder="输入待办事项内容"
-                value={value.content || content}
-                onChange={onContentChange}
-            />
-            <Select
-                style={{ width: 80 }}
-                size="small"
-                defaultValue={UserId.tuture}
-                value={user}
-                onChange={onUserChange}
-            >
-                {userList.map(user => (
-                    <Option value={user.id}>{user.name}</Option>
-                ))}
-            </Select>
-            <DatePicker
-                showTime
-                size="small"
-                onOk={onDateOk}
-                style={{ marginLeft: "16px", marginRight: "16px" }}
-            />
+          <Input
+            type="text"
+            placeholder="输入待办事项内容"
+            value={value?.content || content}
+            onChange={this.onContentChange}
+          />
+          <Select
+            style={{ width: 80 }}
+            size="small"
+            defaultValue={UserId.tuture}
+            value={value?.user || user}
+            onChange={this.onUserChange}
+          >
+            {userList.map(user => (
+              <Option value={user.id}>{user.name}</Option>
+            ))}
+          </Select>
+          <DatePicker
+            showTime
+            size="small"
+            onOk={this.onDateOk}
+            style={{ marginLeft: "16px", marginRight: "16px" }}
+          />
         </div>
-    );
-};
-
-export default TodoInput;
+      );
+    }
+  }
+  
+  export default TodoInput;
